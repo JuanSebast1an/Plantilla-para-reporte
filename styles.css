@@ -1,0 +1,293 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.indexContainer {
+    width: 800px;
+    height: 1050px;
+    margin-left: 300px;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*HEADER*/
+.derechaHeader, .izquierdaHeader {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.derechaHeader {
+    width: 48%;
+    text-align: left;
+}
+
+.izquierdaHeader {
+    width: 50%;
+    height: 100px;
+    text-align: right;
+}
+
+img{
+    height: 50px;
+    width: 140px;
+}
+
+.direccion{
+    color: #979797;
+    font-size: 12px;
+}
+
+.nombre{
+    font-weight: bold;
+}
+
+.recibo {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+/*INFORMACIÓN DEL RECIBO*/
+.informacionIzquierda, .informacionDerecha{
+    display: inline-block;
+}
+
+.informacionIzquierda{
+    width: 590px;
+    margin-right: 15px;
+}
+
+.informacionDerecha{
+    width: 170px;
+}
+
+.division1{
+    width: 15%;
+}
+
+.division2{
+    width: 40%;
+}
+
+.division3{
+    width: 15%;
+}
+
+.division4{
+    width: 30%;
+}
+
+.division5{
+    width: 28%;
+}
+
+.division6{
+    width: 68%;
+}
+.pegarArriba{
+    margin-top: 45px;
+}
+
+.relleno{
+    color: transparent;
+}
+
+.precioContainer{
+    background-color: #D8E0F2;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin-bottom: 1px;
+}
+
+.contienePrecio{
+    display: inline-block;
+}
+
+.precioL{
+    width: 10%;
+}
+
+.precioR{
+    width: 80%;
+    text-align: end;
+}
+
+.superiorPago{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.total{
+    background-color: #2E6FF2;
+    border-radius: 0px 0px 15px 15px;
+    color: #fff;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.inlineBlock{
+    display: inline-block;
+    padding-left: 2px;
+    padding-top: 5px;
+    margin-bottom: 1px;
+}
+
+.containerInfo{
+    border-bottom:#D8E0F2 1px solid;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+/*MEDIOS DE PAGO*/
+.tituloPago{
+    padding-left: 10px;
+}
+
+.mediosPagoDiv{
+    display: inline-block;
+    border-radius: 15px;
+    border: #D8E0F2 1px solid;
+}
+
+.mediosPagoDiv p{
+    display: inline-block;
+    margin: 0px;
+}
+
+.block{
+    display: block;
+}
+
+.mediosPagoDiv img{
+    height: 80px;
+}
+
+.th-small {
+    width: 110px;
+}
+
+.th-medium {
+    width: 250px;   
+}
+
+.th-large {
+    width: 700;  
+}
+
+.border{
+    border-right: 1px solid #D8E0F2;
+}
+
+.pequenia{
+    font-size: 12px;
+    text-align: end;
+}
+
+td, th{
+    padding: 3px 5px 3px 5px;
+}
+
+th {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 15px;
+  } 
+
+table {
+    border-collapse: collapse;
+  }
+
+.codigoBarra{
+    position: relative;
+    top: -20px;
+    height: 115px;
+    width: 170px;
+    padding: 3px 5px 3px 5px;
+}
+
+.izquierdaPago{
+    margin-right: 15px;
+}
+
+
+
+
+/*IMPORTANTE*/
+#importante{
+    margin-bottom: 50px;
+}
+
+#importante h2{
+    color: #979797;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+#importante p{
+    text-align: justify;
+    margin-top: 0px;
+}
+
+
+
+/*FOOTER*/
+footer {
+    border-top: 1px solid #ccc; /* Opcional: solo para visualización */
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+.leftFooter, .rightFooter{
+    display: inline-block;
+    position: relative;
+}
+
+.leftFooter p, .rightFooter p{
+    display: inline-block
+}
+
+.rightFooter{
+    right: -380px;
+}
+
+.polizaNumber{
+    text-align: end;
+}
+
+.subrayado{
+    color: #2E6FF2;
+}
+
+/*Todos comparten*/
+p{
+    
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+a{
+    color: #2E6FF2;
+    text-decoration: none;
+}
+
+.letraGris{
+    color: #979797;
+}
+
+.titulos{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.subrayadoAzul{
+    color: #6393F2;
+    font-size: 13px;
+}
